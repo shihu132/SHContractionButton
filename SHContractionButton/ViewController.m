@@ -35,8 +35,7 @@
     _sh_expansionButton.titleArray = _titleArray;
     [_sh_expansionButton setTitle:@"红色" forState:UIControlStateNormal];
     _sh_expansionButton.backgroundColor = [UIColor orangeColor];
-    [self.view addSubview:_sh_expansion
-     Button];
+    [self.view addSubview:_sh_expansionButton];
 }
 
 #pragma mark - <SHExpansionButtonDelegate>
