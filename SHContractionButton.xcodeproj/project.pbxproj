@@ -15,6 +15,7 @@
 		4850001A215DBD5400663508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48500019215DBD5400663508 /* main.m */; };
 		48500024215DBD5400663508 /* SHContractionButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48500023215DBD5400663508 /* SHContractionButtonTests.m */; };
 		4850002F215DBD5400663508 /* SHContractionButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4850002E215DBD5400663508 /* SHContractionButtonUITests.m */; };
+		4850003E215DBDC200663508 /* SHExpansionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4850003D215DBDC200663508 /* SHExpansionButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4850002A215DBD5400663508 /* SHContractionButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHContractionButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4850002E215DBD5400663508 /* SHContractionButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHContractionButtonUITests.m; sourceTree = "<group>"; };
 		48500030215DBD5400663508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4850003C215DBDC200663508 /* SHExpansionButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHExpansionButton.h; sourceTree = "<group>"; };
+		4850003D215DBDC200663508 /* SHExpansionButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHExpansionButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				4850000B215DBD5200663508 /* AppDelegate.m */,
 				4850000D215DBD5200663508 /* ViewController.h */,
 				4850000E215DBD5200663508 /* ViewController.m */,
+				4850003C215DBDC200663508 /* SHExpansionButton.h */,
+				4850003D215DBDC200663508 /* SHExpansionButton.m */,
 				48500010215DBD5200663508 /* Main.storyboard */,
 				48500013215DBD5400663508 /* Assets.xcassets */,
 				48500015215DBD5400663508 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				4850000F215DBD5200663508 /* ViewController.m in Sources */,
 				4850001A215DBD5400663508 /* main.m in Sources */,
+				4850003E215DBDC200663508 /* SHExpansionButton.m in Sources */,
 				4850000C215DBD5200663508 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
